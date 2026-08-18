@@ -192,8 +192,49 @@ def skills():
     return card(1200, height, defs, "", "\n".join(body), "Fähigkeiten mit Belegen")
 
 
+# ========================================================== REICHWEITE =======
+# Zahlen vom Kanalinhaber angegeben (Stand August 2026).
+STATS = [
+    ("1.800+", "FOLLOWER", "von null aufgebaut"),
+    ("11.269", "LIKES", "über alle Videos"),
+    ("126.000", "AUFRUFE", "bestes Video"),
+    ("100.000", "AUFRUFE", "zweitbestes Video"),
+]
+
+
+def reichweite():
+    w, h = 1200, 250
+    pad = 44
+    defs = """
+    <radialGradient id="rglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8A33D" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#E8A33D" stop-opacity="0"/>
+    </radialGradient>"""
+    css = """
+    .puls { animation: p 4s ease-in-out infinite; transform-origin: 1030px 125px; }
+    @keyframes p { 0%,100% { transform: scale(1); opacity:.85 } 50% { transform: scale(1.08); opacity:1 } }
+    @media (prefers-reduced-motion: reduce) { .puls { animation: none } }
+"""
+    body = [
+        f'  <clipPath id="rc"><rect x="1" y="1" width="{w-2}" height="{h-2}" rx="14"/></clipPath>',
+        f'  <g clip-path="url(#rc)"><circle class="puls" cx="1030" cy="125" r="200" fill="url(#rglow)"/></g>',
+        f'  <text class="s" x="{pad}" y="46" font-size="12" fill="{DIM}" letter-spacing="1.4">REICHWEITE</text>',
+        f'  <text class="m" x="{pad}" y="78" font-size="20" font-weight="600" fill="{ACCENT}">@python_tutorials_de</text>',
+        f'  <text class="s" x="{pad}" y="104" font-size="13.5" fill="{MUTED}">Python-Tutorials und Projektbeispiele auf TikTok — mehrere Kunden kamen über diesen Kanal.</text>',
+        f'  <line x1="{pad}" y1="128" x2="{w-pad}" y2="128" stroke="{HAIR}" stroke-width="1"/>',
+    ]
+    spalte = (w - 2 * pad) // len(STATS)
+    for i, (zahl, label, note) in enumerate(STATS):
+        x = pad + i * spalte
+        body.append(f'  <text class="m" x="{x}" y="185" font-size="34" font-weight="700" fill="{TEXT}" letter-spacing="-1">{escape(zahl)}</text>')
+        body.append(f'  <text class="s" x="{x}" y="207" font-size="11.5" fill="{ACCENT}" letter-spacing="0.9">{escape(label)}</text>')
+        body.append(f'  <text class="s" x="{x}" y="227" font-size="12" fill="{DIM}">{escape(note)}</text>')
+    return card(w, h, defs, css, "\n".join(body), "Reichweite auf TikTok")
+
+
 if __name__ == "__main__":
     (OUT / "journey.svg").write_text(journey(), encoding="utf-8")
     (OUT / "skills.svg").write_text(skills(), encoding="utf-8")
-    for f in ("journey.svg", "skills.svg"):
+    (OUT / "reichweite.svg").write_text(reichweite(), encoding="utf-8")
+    for f in ("journey.svg", "skills.svg", "reichweite.svg"):
         print(f"{f}: {(OUT / f).stat().st_size} Bytes")

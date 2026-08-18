@@ -1,4 +1,4 @@
-<img src="assets/hero.svg" alt="Bastian Scherzinger — Django-Webseiten, SEO und Python-Automatisierung" width="100%">
+<img src="assets/hero.svg?v=2" alt="Bastian Scherzinger — Django-Webseiten, SEO und Python-Automatisierung" width="100%">
 
 ### Hallo, ich bin Bastian.
 
@@ -18,12 +18,12 @@ Sieben Seiten sind produktiv im Einsatz. Jede davon habe ich vollständig selbst
 
 ```mermaid
 flowchart LR
-    A["Anfrage"] --> B["Konzept und Inhalte<br/>Struktur · Texte · Bildmaterial"]
-    B --> C["Umsetzung<br/>Django · eigenes Design-System"]
-    C --> D["Deployment<br/>Railway · Domain · HTTPS"]
-    D --> E["SEO und GEO<br/>Schema.org · llms.txt · Local-SEO"]
-    E --> F["Betreuung<br/>Änderungen · Google Ads · Messung"]
-    F -. neue Anforderungen .-> B
+    A["Anfrage"] --> B["Konzept<br/>Struktur · Texte"]
+    B --> C["Umsetzung<br/>Django"]
+    C --> D["Deployment<br/>Railway · Domain"]
+    D --> E["SEO und GEO<br/>Schema.org · llms.txt"]
+    E --> F["Betreuung<br/>Änderungen · Ads"]
+    F -. neu .-> B
 ```
 
 ### Kundenseiten

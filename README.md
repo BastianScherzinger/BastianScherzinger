@@ -83,7 +83,9 @@ Am besten liefen zwei Videos über meine **Scraping-Dashboards** mit **126.000**
 
 # Der Weg hierher
 
-<img src="assets/journey.svg" alt="Entwicklungsweg von 2016 bis 2026" width="100%">
+<img src="assets/journey.svg?v=2" alt="Entwicklungsweg von 2016 bis 2026" width="100%">
+
+**→ [Als scroll-gesteuerte Seite ansehen](https://bastianscherzinger.github.io/BastianScherzinger/zeitleiste/)** — dort wächst die Zeitleiste mit, während man scrollt.
 
 Zwei Dinge in dieser Zeitleiste haben mehr verändert als alles andere.
 

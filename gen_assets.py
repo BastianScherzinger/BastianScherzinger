@@ -30,7 +30,7 @@ BASE_CSS = f"""
     @keyframes pulse {{ 0%,100% {{ transform: scale(1); opacity: .30 }}
                         50%     {{ transform: scale(1.35); opacity: .04 }} }}
     @media (prefers-reduced-motion: reduce) {{
-      .ring, .comet {{ animation: none !important; }}
+      .ring {{ animation: none !important; }}
     }}
 """
 
@@ -62,9 +62,15 @@ PHASES = [
         ("Jan–Feb 2026", "Grundlagen", "Scraper, Flask, REST-APIs, OpenCV", 0),
         ("Mär 2026", "VintedBot", "Erster bezahlter Auftrag — über einen TikTok-Kommentar", 1),
     ]),
-    ("2026   ·   PROFESSIONELL", [
+    ("2026   ·   VOM AUFTRAG ZUM GESCHÄFT", [
         ("Apr 2026", "Fünf Bot-Iterationen", "async, MongoDB, Proxy-Routing, Dashboard — in 23 Tagen", 0),
-        ("Mai 2026", "Django", "Erste Kundenseiten gehen live", 0),
+        ("Apr 2026", "Luviq Universe", "Erster Onlineshop — Katalog, Warenkorb, PayPal, Konten", 1),
+        ("Mai 2026", "PyStore", "Eigenes Angebot: rund 135 Stadtseiten für lokale Suche", 0),
+        ("Mai 2026", "Flügel Haus & Gebäudeservice", "Firmenseite mit Angebotsanfrage als zentralem Weg", 0),
+        ("Mai 2026", "RTC-Service", "Firmenseite mit interaktivem 3D-Roboter im Kopfbereich", 0),
+        ("Jun 2026", "Rümpelwerk Mitteldeutschland", "Seite, SEO und Google Ads — bringt laufend echte Aufträge", 1),
+        ("Jun 2026", "Automobilzentrum Rhein-Neckar", "Scroll-gesteuertes Kinovideo, drehbare 360°-Fahrzeuge", 1),
+        ("Jun 2026", "WVM-IT", "Dreisprachig DE/EN/RO — österreichischer Auftraggeber", 1),
         ("Jun 2026", "JARVIS", "Eigene KI-Agenten-Plattform — 44.285 Zeilen, 258 Commits", 1),
         ("Jul 2026", "livingen", "47.785 Zeilen, 1.545 Tests, Docker, GitHub Actions", 1),
         ("Aug 2026", "LieferungDirekt", "FastAPI + native Kotlin-App, 214 Tests, übergabefertig", 1),
@@ -94,8 +100,6 @@ def journey():
         # Rueckgrat: immer vollstaendig gezeichnet
         f'  <line x1="{SPINE_X}" y1="{first_y}" x2="{SPINE_X}" y2="{last_y}" stroke="{HAIR}" stroke-width="2" stroke-linecap="round"/>',
         f'  <line x1="{SPINE_X}" y1="{first_y}" x2="{SPINE_X}" y2="{last_y}" stroke="{ACCENT_DIM}" stroke-width="2" stroke-linecap="round" opacity="0.55"/>',
-        # wandernder Lichtpunkt entlang des Rueckgrats
-        f'  <circle class="comet" cx="{SPINE_X}" cy="{first_y}" r="3.5" fill="#FFD9A0"/>',
     ]
 
     for kind, data, y in rows:
@@ -118,17 +122,10 @@ def journey():
         body.append(f'  <text class="s" x="{TEXT_X}" y="{y-3}" font-size="15.5" font-weight="700" fill="{TEXT}">{escape(title)}</text>')
         body.append(f'  <text class="s" x="{TEXT_X}" y="{y+17}" font-size="13" fill="{MUTED}">{escape(desc)}</text>')
 
-    travel = last_y - first_y
-    css = f"""
-    .comet {{ animation: travel 7s cubic-bezier(.5,0,.5,1) infinite; }}
-    @keyframes travel {{
-      0%   {{ transform: translateY(0);            opacity: 0 }}
-      6%   {{ opacity: 1 }}
-      88%  {{ opacity: 1 }}
-      100% {{ transform: translateY({travel}px);   opacity: 0 }}
-    }}
-"""
-    return card(1200, height, "", css, "\n".join(body),
+    # Kein selbstlaufender Punkt mehr: ein Bild im README kann die Scroll-
+    # Position der Seite nicht lesen, und eine Bewegung ohne Bezug zum Nutzer
+    # lenkt nur ab. Bewegung gibt es nur noch an den Meilenstein-Ringen.
+    return card(1200, height, "", "", "\n".join(body),
                 "Entwicklungsweg von Bastian Scherzinger, 2016 bis 2026")
 
 

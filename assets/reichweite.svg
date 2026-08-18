@@ -13,7 +13,7 @@
     @keyframes pulse { 0%,100% { transform: scale(1); opacity: .30 }
                         50%     { transform: scale(1.35); opacity: .04 } }
     @media (prefers-reduced-motion: reduce) {
-      .ring, .comet { animation: none !important; }
+      .ring { animation: none !important; }
     }
 
     .puls { animation: p 4s ease-in-out infinite; transform-origin: 1030px 125px; }

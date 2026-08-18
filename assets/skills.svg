@@ -17,7 +17,7 @@
     @keyframes pulse { 0%,100% { transform: scale(1); opacity: .30 }
                         50%     { transform: scale(1.35); opacity: .04 } }
     @media (prefers-reduced-motion: reduce) {
-      .ring, .comet { animation: none !important; }
+      .ring { animation: none !important; }
     }
 </style>
   <rect x="1" y="1" width="1198" height="686" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>

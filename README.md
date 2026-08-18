@@ -42,7 +42,7 @@ flowchart LR
 <td><a href="https://www.luviq-alsfeld.com"><img src="assets/sites/luviq.jpg" alt="Luviq Universe" width="100%"></a></td>
 </tr>
 <tr>
-<td><b><a href="https://rhein-neckar-production.up.railway.app">Automobilzentrum Rhein-Neckar</a></b><br>Luxus- und Sportwagenhandel. Video-Showroom, Fahrzeugkatalog, Beratungsanfrage — visuell mein aufwändigstes Projekt.</td>
+<td><b><a href="https://rhein-neckar-production.up.railway.app">Automobilzentrum Rhein-Neckar</a></b><br>Luxus- und Sportwagenhandel und mein technisch aufwändigstes Frontend. Ein <b>Kinovideo, dessen Wiedergabe der Scroll-Position folgt</b> statt selbst zu laufen, und ein Showroom mit <b>Fahrzeugen, die man mit der Maus rundherum drehen kann</b> — sechs Modelle von Bugatti bis Lamborghini.</td>
 <td><b><a href="https://www.luviq-alsfeld.com">Luviq Universe</a></b><br>Vollständiger Onlineshop für handbemalte Second-Hand-Mode: Katalog, Warenkorb, PayPal-Checkout, Konten. Mein erstes Projekt für eine andere Person.</td>
 </tr>
 <tr>
@@ -50,7 +50,7 @@ flowchart LR
 <td><a href="https://www.hg-fluegel.de"><img src="assets/sites/hg-fluegel.jpg" alt="Flügel Haus &amp; Gebäudeservice" width="100%"></a></td>
 </tr>
 <tr>
-<td><b><a href="https://www.rtc-service.com">RTC-Service</a></b><br>Technik, Installation und Modernisierung. Leistungsübersicht, Referenzen, direkte Kontaktwege über WhatsApp und Telefon.</td>
+<td><b><a href="https://www.rtc-service.com">RTC-Service</a></b><br>Technik, Installation und Modernisierung. Im Kopfbereich steht ein <b>interaktiver 3D-Roboter</b> (Spline, WebGL), der auf Mausbewegungen reagiert. Dazu direkte Kontaktwege über WhatsApp und Telefon.</td>
 <td><b><a href="https://www.hg-fluegel.de">Flügel Haus &amp; Gebäudeservice</a></b><br>Gebäudereinigung und Gartenpflege. Klare Leistungsstruktur mit Angebotsanfrage als zentralem Weg.</td>
 </tr>
 </table>

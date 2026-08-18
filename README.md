@@ -90,6 +90,18 @@ Desktop-Werkzeug, das aus einem Briefing ein Drehbuch erzeugt, daraus Videoszene
 
 **→ [Repository](https://github.com/BastianScherzinger/mediapipe-wvm)**
 
+---
+
+### Luviq Universe — Onlineshop
+
+Vollständiger Django-Shop für handbemalte Second-Hand-Mode: Produktkatalog, Warenkorb, Checkout mit PayPal, Registrierung mit E-Mail-Verifizierung, Rechtstexte und erzeugte `sitemap.xml`. Medien liegen bei Cloudinary, damit das Deployment schlank bleibt.
+
+Das war das erste Projekt, das ich für eine andere Person gebaut habe. Die Views habe ich nachträglich von einer einzelnen Datei in ein Package nach Zuständigkeiten aufgeteilt — ab etwa tausend Zeilen war jede Änderung eine Sucherei geworden. Das ist die Lektion, die ich aus diesem Projekt mitgenommen habe.
+
+`Django 5` · `PostgreSQL` · `PayPal` · `Cloudinary` · `django-axes` · Docker
+
+**→ [Zur Seite](https://www.luviq-alsfeld.com)** · **[Repository](https://github.com/BastianScherzinger/Webseitemitstripe)**
+
 <br>
 
 ## Kundenprojekte
@@ -101,7 +113,7 @@ Alle Seiten sind live und wurden von mir gebaut — Entwicklung, Deployment, Dom
 | **[Rümpelwerk Mitteldeutschland](https://www.ruempelwerk-mitteldeutschland.de)** | Entrümpelung & Haushaltsauflösungen | Seite, SEO-Betreuung, Google Ads — bringt laufend echte Aufträge |
 | **[WVM-IT](https://www.wvm-it.tech)** | Österreichisches IT-Unternehmen | Firmenseite, dreisprachig DE/EN/RO · zugleich Auftraggeber und Kooperationspartner |
 | **[RTC-Service](https://www.rtc-service.com)** | Technik, Installation, Modernisierung | Komplette Firmenseite |
-| **[Luviq Universe](https://www.luviq-alsfeld.com)** | Handbemalte Second-Hand-Mode, Alsfeld | Komplette Seite — mein erstes Projekt für eine andere Person |
+| **[Luviq Universe](https://www.luviq-alsfeld.com)** | Handbemalte Second-Hand-Mode, Alsfeld | Kompletter Onlineshop — mein erstes Projekt für eine andere Person · [Code](https://github.com/BastianScherzinger/Webseitemitstripe) |
 | **[Flügel Haus & Gebäudeservice](https://www.hg-fluegel.de)** | Reinigung, Garten, Hausservice | Komplette Firmenseite |
 | **[Automobilzentrum Rhein-Neckar](https://rhein-neckar-production.up.railway.app)** | Luxus- und Sportwagenhandel | Django-Neubau mit Video-Showroom |
 | **[PyStore](https://www.pystore.de)** | Mein eigenes Webseiten-Angebot | Django-Multi-App, rund 135 SEO-Stadtseiten |

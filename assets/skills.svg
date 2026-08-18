@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="688" viewBox="0 0 1200 688" role="img" aria-label="Fähigkeiten mit Belegen">
+  <title>Fähigkeiten mit Belegen</title>
+  <defs>
+    <linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="90" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+                        values="126 0; 576 0; 576 0"
+                        dur="5s" repeatCount="indefinite"/>
+    </linearGradient></defs>
+  <style>
+    .s { font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .m { font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace; }
+    .ring { animation: pulse 3.6s ease-in-out infinite;
+             transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%,100% { transform: scale(1); opacity: .30 }
+                        50%     { transform: scale(1.35); opacity: .04 } }
+    @media (prefers-reduced-motion: reduce) {
+      .ring, .comet { animation: none !important; }
+    }
+</style>
+  <rect x="1" y="1" width="1198" height="686" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  <text class="s" x="44" y="52" font-size="12" fill="#6E7681" letter-spacing="1.4">FÄHIGKEITEN</text>
+  <text class="s" x="44" y="80" font-size="13.5" fill="#8B949E">Einstufung aus gemessener Nutzung abgeleitet — jede Zeile nennt ihren Beleg.</text>
+  <text class="s" x="44" y="117" font-size="14" font-weight="600" fill="#E6EDF3">Python</text>
+  <rect x="236" y="104" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="104" width="276" height="9" rx="4.5" fill="#E8A33D"/>
+  <clipPath id="c0"><rect x="236" y="104" width="276" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c0)" x="236" y="104" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="116" font-size="11.5" fill="#6E7681">sicher</text>
+  <text class="s" x="670" y="116" font-size="12.5" fill="#8B949E">170.668 Zeilen über 15 Projekte · async, OOP, Packaging</text>
+  <text class="s" x="44" y="159" font-size="14" font-weight="600" fill="#E6EDF3">Web-Scraping</text>
+  <rect x="236" y="146" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="146" width="246" height="9" rx="4.5" fill="#D2933A"/>
+  <clipPath id="c1"><rect x="236" y="146" width="246" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c1)" x="236" y="146" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="158" font-size="11.5" fill="#6E7681">fortgeschritten</text>
+  <text class="s" x="670" y="158" font-size="12.5" fill="#8B949E">Playwright, Selenium, Scrapling, curl_cffi, cloudscraper</text>
+  <text class="s" x="44" y="201" font-size="14" font-weight="600" fill="#E6EDF3">Django</text>
+  <rect x="236" y="188" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="188" width="240" height="9" rx="4.5" fill="#D2933A"/>
+  <clipPath id="c2"><rect x="236" y="188" width="240" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c2)" x="236" y="188" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="200" font-size="11.5" fill="#6E7681">fortgeschritten</text>
+  <text class="s" x="670" y="200" font-size="12.5" fill="#8B949E">9 produktive Seiten · ORM, Templates, Middleware, eigenes i18n</text>
+  <text class="s" x="44" y="243" font-size="14" font-weight="600" fill="#E6EDF3">Deployment</text>
+  <rect x="236" y="230" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="230" width="234" height="9" rx="4.5" fill="#D2933A"/>
+  <clipPath id="c3"><rect x="236" y="230" width="234" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c3)" x="236" y="230" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="242" font-size="11.5" fill="#6E7681">fortgeschritten</text>
+  <text class="s" x="670" y="242" font-size="12.5" fill="#8B949E">Railway, Gunicorn, Whitenoise, Docker · 8 Seiten live</text>
+  <text class="s" x="44" y="285" font-size="14" font-weight="600" fill="#E6EDF3">REST-APIs</text>
+  <rect x="236" y="272" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="272" width="222" height="9" rx="4.5" fill="#B07E36"/>
+  <clipPath id="c4"><rect x="236" y="272" width="222" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c4)" x="236" y="272" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="284" font-size="11.5" fill="#6E7681">solide</text>
+  <text class="s" x="670" y="284" font-size="12.5" fill="#8B949E">FastAPI-Backend · Anthropic-, Supabase-, Discord-Integration</text>
+  <text class="s" x="44" y="327" font-size="14" font-weight="600" fill="#E6EDF3">SEO / GEO</text>
+  <rect x="236" y="314" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="314" width="216" height="9" rx="4.5" fill="#B07E36"/>
+  <clipPath id="c5"><rect x="236" y="314" width="216" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c5)" x="236" y="314" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="326" font-size="11.5" fill="#6E7681">solide</text>
+  <text class="s" x="670" y="326" font-size="12.5" fill="#8B949E">Schema.org-@graph, llms.txt, Local-SEO · Google Ads betreut</text>
+  <text class="s" x="44" y="369" font-size="14" font-weight="600" fill="#E6EDF3">HTML / CSS</text>
+  <rect x="236" y="356" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="356" width="204" height="9" rx="4.5" fill="#B07E36"/>
+  <clipPath id="c6"><rect x="236" y="356" width="204" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c6)" x="236" y="356" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="368" font-size="11.5" fill="#6E7681">solide</text>
+  <text class="s" x="670" y="368" font-size="12.5" fill="#8B949E">Eigenes Token-System, responsive, Lighthouse-A11y 100</text>
+  <text class="s" x="44" y="411" font-size="14" font-weight="600" fill="#E6EDF3">Testing</text>
+  <rect x="236" y="398" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="398" width="186" height="9" rx="4.5" fill="#7E6033"/>
+  <clipPath id="c7"><rect x="236" y="398" width="186" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c7)" x="236" y="398" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="410" font-size="11.5" fill="#6E7681">im Aufbau</text>
+  <text class="s" x="670" y="410" font-size="12.5" fill="#8B949E">2.324 Testfunktionen — aber stark ungleich verteilt</text>
+  <text class="s" x="44" y="453" font-size="14" font-weight="600" fill="#E6EDF3">Datenbanken</text>
+  <rect x="236" y="440" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="440" width="174" height="9" rx="4.5" fill="#7E6033"/>
+  <clipPath id="c8"><rect x="236" y="440" width="174" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c8)" x="236" y="440" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="452" font-size="11.5" fill="#6E7681">im Aufbau</text>
+  <text class="s" x="670" y="452" font-size="12.5" fill="#8B949E">PostgreSQL, SQLite, Supabase inkl. RLS · wenig Query-Tuning</text>
+  <text class="s" x="44" y="495" font-size="14" font-weight="600" fill="#E6EDF3">Docker</text>
+  <rect x="236" y="482" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="482" width="144" height="9" rx="4.5" fill="#55492F"/>
+  <clipPath id="c9"><rect x="236" y="482" width="144" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c9)" x="236" y="482" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="494" font-size="11.5" fill="#6E7681">Grundlagen</text>
+  <text class="s" x="670" y="494" font-size="12.5" fill="#8B949E">Dockerfiles in 5 Projekten · noch kein Compose-Stack</text>
+  <text class="s" x="44" y="537" font-size="14" font-weight="600" fill="#E6EDF3">Kotlin / Android</text>
+  <rect x="236" y="524" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="524" width="126" height="9" rx="4.5" fill="#55492F"/>
+  <clipPath id="c10"><rect x="236" y="524" width="126" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c10)" x="236" y="524" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="536" font-size="11.5" fill="#6E7681">Grundlagen</text>
+  <text class="s" x="670" y="536" font-size="12.5" fill="#8B949E">13.174 Zeilen Jetpack Compose in einem Projekt</text>
+  <text class="s" x="44" y="579" font-size="14" font-weight="600" fill="#E6EDF3">JavaScript</text>
+  <rect x="236" y="566" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="566" width="114" height="9" rx="4.5" fill="#55492F"/>
+  <clipPath id="c11"><rect x="236" y="566" width="114" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c11)" x="236" y="566" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="578" font-size="11.5" fill="#6E7681">Grundlagen</text>
+  <text class="s" x="670" y="578" font-size="12.5" fill="#8B949E">Vanilla-JS, Scroll-Animationen · kein Framework</text>
+  <text class="s" x="44" y="621" font-size="14" font-weight="600" fill="#E6EDF3">CI/CD</text>
+  <rect x="236" y="608" width="300" height="9" rx="4.5" fill="#1B2027"/>
+  <rect x="236" y="608" width="90" height="9" rx="4.5" fill="#55492F"/>
+  <clipPath id="c12"><rect x="236" y="608" width="90" height="9" rx="4.5"/></clipPath>
+  <rect clip-path="url(#c12)" x="236" y="608" width="300" height="9" fill="url(#sheen)"/>
+  <text class="m" x="554" y="620" font-size="11.5" fill="#6E7681">Grundlagen</text>
+  <text class="s" x="670" y="620" font-size="12.5" fill="#8B949E">GitHub Actions bisher nur in einem Projekt</text>
+</svg>

@@ -1,4 +1,4 @@
-<img src="assets/hero.svg?v=2" alt="Bastian Scherzinger — Django-Webseiten, SEO und Python-Automatisierung" width="100%">
+<img src="assets/hero.svg?v=3" alt="Bastian Scherzinger — Django-Webseiten, SEO und Python-Automatisierung" width="100%">
 
 ### Hallo, ich bin Bastian.
 

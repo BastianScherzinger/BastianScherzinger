@@ -2,70 +2,117 @@
 
 ### Hallo, ich bin Bastian.
 
-Ich baue Webseiten für kleine und mittlere Betriebe — mit Django, von Grund auf selbst, inklusive Deployment, Domain, SEO und laufender Betreuung. Daneben entstehen Werkzeuge, die echte Arbeit abnehmen: Bestellsysteme, Scraping-Pipelines, Automatisierung.
+Ich führe die **[Webagentur Scherzinger](https://webagentur-scherzinger.com)** in Lübeck. Für kleine Betriebe baue ich Webseiten mit Django und kümmere mich danach weiter um sie: Deployment, Domain, Mails, SEO, Inhalte und Änderungen. Daneben entstehen Werkzeuge, die echte Arbeit abnehmen, etwa Bestellsysteme, Scraping-Pipelines und Automatisierung.
 
-Angefangen habe ich mit 11 bei Scratch. Im Juli 2025, direkt nach dem Realschulabschluss, habe ich bewusst wieder bei `hello world` begonnen und seitdem nicht mehr aufgehört.
+Mit 11 habe ich bei Scratch angefangen. Im Juli 2025, direkt nach dem Realschulabschluss, habe ich bewusst wieder bei `hello world` begonnen. Am 1. September 2026 habe ich daraus ein Gewerbe gemacht.
 
-**Aktuell:** freiberufliche Kundenprojekte · **Ab 2027:** Ausbildung zum Fachinformatiker für Anwendungsentwicklung
+**Aktuell:** Webagentur Scherzinger mit sieben betreuten Live-Seiten · **Ab 2027:** Ausbildung zum Fachinformatiker für Anwendungsentwicklung
+
+<img src="assets/zahlen.svg?v=1" alt="Kennzahlen 2026: 6.273 Commits seit Mai, 38 Repos, 11.871 Testfunktionen, 7 betreute Live-Seiten" width="100%">
 
 <br>
 
 ---
 
-# Webseiten — mein Hauptgeschäft
+# Webseiten, die ich aktiv betreue
 
-Sieben Seiten sind produktiv im Einsatz. Jede davon habe ich vollständig selbst gebaut: Konzept, Inhalte, Django-Umsetzung, Design, Deployment und die Suchmaschinen-Optimierung danach.
+Alle Seiten unten habe ich selbst gebaut und betreue sie bis heute: Konzept, Texte, Django-Umsetzung, Design, Deployment und danach die laufende Pflege. Nach der Übergabe höre ich nicht auf. Ich messe die Suchzahlen, baue nach und reiche neue Seiten bei Google ein.
+
+| Seite | Branche | Live seit | Was ich laufend mache |
+|---|---|---|---|
+| [Rümpelwerk Mitteldeutschland](https://www.ruempelwerk-mitteldeutschland.de) | Entrümpelung, Halle und Leipzig | Mai 2026 | Pflege, SEO und GEO, neue Leistungs- und Ortsseiten, Backlinks |
+| [HG Flügel](https://www.hg-fluegel.de) | Hausmeister und Gebäudeservice, Odenwald | Mai 2026 | monatliche Betreuung, Galerie mit 120 Vorher-nachher-Fotos |
+| [RTC-Service](https://www.rtc-service.com) | Klima- und Haustechnik, Waghäusel | Juni 2026 | Bewertungsseite, Preisrechner, Sichtbarkeit |
+| [WVM-IT](https://www.wvm-it.tech) | IT-Betreuung, Österreich | Juli 2026 | dreisprachig DE, EN und RO, Google-Unternehmensprofil |
+| [1A Entrümpelung](https://www.1a-entruemplung.com) | Entrümpelung, Leipzig | Sep. 2026 | Neubau im September, Preisrechner, Ratgeber |
+| [Luviq](https://www.luviq-alsfeld.com) | handbemalte Mode | Apr. 2026 | Archiv, Rechtstexte, Instagram-Anbindung |
+| [Autohaus Rhein-Neckar](https://rhein-neckar-production.up.railway.app) | Luxusfahrzeuge | Juni 2026 | Showroom mit drehbaren 3D-Fahrzeugen |
+
+### Referenz: Rümpelwerk Mitteldeutschland
+
+<a href="https://www.ruempelwerk-mitteldeutschland.de"><img src="assets/sites/ruempelwerk.jpg?v=2" alt="Rümpelwerk Mitteldeutschland: Startseite mit Anfrageformular" width="100%"></a>
+
+Mein am längsten und am intensivsten betreutes Projekt. Ich habe es im Mai 2026 in einer Nacht gebaut und seitdem jede Woche weiterentwickelt. **Über die Seite kommen laufend echte Aufträge herein.**
+
+- **Anfrage in zwei Minuten:** Formular direkt im Kopfbereich, Festpreis-Angebot per WhatsApp-Video, Besichtigung online buchbar
+- **Sofort-Preisrechner** mit Standortlogik und Erinnerungsmail
+- **Lokale Sichtbarkeit:** Orts- und Leistungsseiten für Halle, Leipzig und das Umland, strukturierte Daten als `@graph`, `llms.txt` für KI-Suchmaschinen
+- **Benachrichtigung in Echtzeit:** Jede Anfrage kommt sofort per Telegram und Mail an
+- **Abgesichert:** Spam-Schutz für das Formular, nachdem Bots es im August angegriffen hatten
+
+`990` Commits · `89.058` Zeilen Code · `1.530` Testfunktionen · `32.469` Zeilen Doku
 
 ```mermaid
 flowchart LR
-    A["Anfrage"] --> B["Konzept<br/>Struktur · Texte"]
-    B --> C["Umsetzung<br/>Django"]
-    C --> D["Deployment<br/>Railway · Domain"]
-    D --> E["SEO und GEO<br/>Schema.org · llms.txt"]
-    E --> F["Betreuung<br/>Änderungen · Ads"]
-    F -. neu .-> B
+    A["Besucher aus Google<br/>Halle · Leipzig"] --> B["Orts- und<br/>Leistungsseite"]
+    B --> C{"Wie anfragen?"}
+    C -->|2 Minuten| D["Formular"]
+    C -->|Video| E["WhatsApp"]
+    C -->|Termin| F["Online-Besichtigung"]
+    D --> G["Telegram + Mail<br/>in Echtzeit"]
+    E --> G
+    F --> G
+    G --> H["Festpreis-Angebot"]
 ```
 
-### Kundenseiten
+### Weitere Kundenseiten
 
 <table>
 <tr>
-<td width="50%"><a href="https://www.ruempelwerk-mitteldeutschland.de"><img src="assets/sites/ruempelwerk.jpg" alt="Rümpelwerk Mitteldeutschland" width="100%"></a></td>
-<td width="50%"><a href="https://www.wvm-it.tech"><img src="assets/sites/wvm-it.jpg" alt="WVM-IT" width="100%"></a></td>
+<td width="50%"><a href="https://www.hg-fluegel.de"><img src="assets/sites/hg-fluegel.jpg?v=2" alt="HG Flügel Haus- und Gebäudeservice" width="100%"></a></td>
+<td width="50%"><a href="https://www.1a-entruemplung.com"><img src="assets/sites/1a-entruempelung.jpg?v=1" alt="1A Entrümpelung Leipzig" width="100%"></a></td>
 </tr>
 <tr>
-<td><b><a href="https://www.ruempelwerk-mitteldeutschland.de">Rümpelwerk Mitteldeutschland</a></b><br>Entrümpelung &amp; Haushaltsauflösungen. Mein bestbetreutes Projekt: Seite, SEO und Google Ads aus einer Hand — <b>es kommen laufend echte Aufträge über die Seite herein.</b></td>
-<td><b><a href="https://www.wvm-it.tech">WVM-IT</a></b><br>Österreichisches IT-Unternehmen, zugleich Auftraggeber und Kooperationspartner. Dreisprachig DE/EN/RO über ein eigenes i18n-Paket ohne <code>gettext</code>.</td>
+<td><b><a href="https://www.hg-fluegel.de">HG Flügel</a></b><br>Mein erster Kunde. Hausmeister, Garten und Winterdienst im Odenwald, mit einem <b>Richtangebot in zwei Minuten</b> als zentralem Weg und einer Galerie mit 120 Vorher-nachher-Fotos. <code>928</code> Commits.</td>
+<td><b><a href="https://www.1a-entruemplung.com">1A Entrümpelung</a></b><br>Entrümpelung in Leipzig, im September 2026 komplett neu gebaut. Bewusst weg vom Baukasten-Look: kräftige Typografie, großformatige Bilder und ein <b>Preis in 60 Sekunden</b>.</td>
 </tr>
 <tr>
-<td><a href="https://rhein-neckar-production.up.railway.app"><img src="assets/sites/rhein-neckar.jpg" alt="Automobilzentrum Rhein-Neckar" width="100%"></a></td>
-<td><a href="https://www.luviq-alsfeld.com"><img src="assets/sites/luviq.jpg" alt="Luviq Universe" width="100%"></a></td>
+<td><a href="https://www.rtc-service.com"><img src="assets/sites/rtc-service.jpg?v=2" alt="RTC-Service" width="100%"></a></td>
+<td><a href="https://www.wvm-it.tech"><img src="assets/sites/wvm-it.jpg?v=2" alt="WVM-IT" width="100%"></a></td>
 </tr>
 <tr>
-<td><b><a href="https://rhein-neckar-production.up.railway.app">Automobilzentrum Rhein-Neckar</a></b><br>Luxus- und Sportwagenhandel und mein technisch aufwändigstes Frontend. Ein <b>Kinovideo, dessen Wiedergabe der Scroll-Position folgt</b> statt selbst zu laufen, und ein Showroom mit <b>Fahrzeugen, die man mit der Maus rundherum drehen kann</b> — sechs Modelle von Bugatti bis Lamborghini.</td>
-<td><b><a href="https://www.luviq-alsfeld.com">Luviq Universe</a></b><br>Vollständiger Onlineshop für handbemalte Second-Hand-Mode: Katalog, Warenkorb, PayPal-Checkout, Konten. Mein erstes Projekt für eine andere Person.</td>
+<td><b><a href="https://www.rtc-service.com">RTC-Service</a></b><br>Klimaanlagen und Haustechnik mit acht Gewerken. Kostenloser <b>Preisrechner direkt im Kopfbereich</b>, Bewertungsseite und direkte Wege über WhatsApp und Telefon. <code>900</code> Commits.</td>
+<td><b><a href="https://www.wvm-it.tech">WVM-IT</a></b><br>IT-Betreuung für Betriebe in Österreich. Dreisprachig DE/EN/RO über ein eigenes i18n-Paket ohne <code>gettext</code>, Rückruf-Formular und Google-Unternehmensprofil.</td>
 </tr>
 <tr>
-<td><a href="https://www.rtc-service.com"><img src="assets/sites/rtc-service.jpg" alt="RTC-Service" width="100%"></a></td>
-<td><a href="https://www.hg-fluegel.de"><img src="assets/sites/hg-fluegel.jpg" alt="Flügel Haus &amp; Gebäudeservice" width="100%"></a></td>
+<td><a href="https://rhein-neckar-production.up.railway.app"><img src="assets/sites/rhein-neckar.jpg?v=2" alt="Automobilzentrum Rhein-Neckar" width="100%"></a></td>
+<td><a href="https://www.luviq-alsfeld.com"><img src="assets/sites/luviq.jpg?v=2" alt="Luviq" width="100%"></a></td>
 </tr>
 <tr>
-<td><b><a href="https://www.rtc-service.com">RTC-Service</a></b><br>Technik, Installation und Modernisierung. Im Kopfbereich steht ein <b>interaktiver 3D-Roboter</b> (Spline, WebGL), der auf Mausbewegungen reagiert. Dazu direkte Kontaktwege über WhatsApp und Telefon.</td>
-<td><b><a href="https://www.hg-fluegel.de">Flügel Haus &amp; Gebäudeservice</a></b><br>Gebäudereinigung und Gartenpflege. Klare Leistungsstruktur mit Angebotsanfrage als zentralem Weg.</td>
+<td><b><a href="https://rhein-neckar-production.up.railway.app">Automobilzentrum Rhein-Neckar</a></b><br>Mein technisch aufwändigstes Frontend: ein <b>Kinovideo, das der Scroll-Position folgt</b>, und ein Showroom mit <b>Fahrzeugen, die man mit der Maus drehen kann</b>.</td>
+<td><b><a href="https://www.luviq-alsfeld.com">Luviq</a></b><br>Handbemalte Second-Hand-Mode aus Alsfeld als editoriales Archiv. Mein erstes Projekt für eine andere Person.</td>
 </tr>
 </table>
 
-### Mein eigenes Angebot
+### Meine Agentur
 
-<a href="https://www.pystore.de"><img src="assets/sites/pystore.jpg" alt="PyStore" width="100%"></a>
+<a href="https://webagentur-scherzinger.com"><img src="assets/sites/webagentur.jpg?v=1" alt="Webagentur Scherzinger: Eine Website, gebaut für Anfragen" width="100%"></a>
 
-**[PyStore](https://www.pystore.de)** — hierüber verkaufe ich Webseiten. Django-Multi-App mit rund 135 eigenständigen Stadtseiten für lokale Suchanfragen, FAQ- und Breadcrumb-Auszeichnung, selbst gehostete Schriften und Skripte. Lighthouse-Barrierefreiheit 100.
+**[webagentur-scherzinger.com](https://webagentur-scherzinger.com)** ist mein Angebot: programmiert statt Baukasten, online in zwei bis vier Wochen. Mit Fallstudien, Standortseiten, Bewertungen und einem Projektfragebogen. `755` Commits und `1.393` Testfunktionen in sechs Wochen.
 
-> **Was SEO und GEO bei mir konkret heißt:** strukturierte Daten als `@graph` statt loser Schnipsel, `FAQPage`- und `Breadcrumb`-Auszeichnung, `llms.txt` und eine für KI-Crawler geöffnete `robots.txt`, Antwort-zuerst-Texte, dazu Local-SEO für den deutschsprachigen Raum. Bei Rümpelwerk kommt die Google-Ads-Betreuung dazu.
+> **Was SEO und GEO bei mir konkret heißt:** strukturierte Daten als `@graph` statt loser Schnipsel, `FAQPage`- und `Breadcrumb`-Auszeichnung, `llms.txt` und eine für KI-Crawler geöffnete `robots.txt`, Antwort-zuerst-Texte, Local SEO mit Orts- und Leistungsseiten und danach die Messung in der Search Console.
+
+### So arbeite ich mit KI-Agenten
+
+Ich arbeite mit Claude Code und lasse ganze Agententeams für mich arbeiten. Die Entscheidungen und die Abnahme bleiben bei mir. Allein zwischen dem 10. September und dem 15. Oktober 2026 waren das 984 gestartete Agenten und über 160.000 Werkzeugaufrufe. 58 % meiner Commits seit Mai tragen Claude als Co-Autor.
+
+```mermaid
+flowchart LR
+    A["Auftrag<br/>per Sprache"] --> B["Plan<br/>Opus / Fable"]
+    B --> C["Agententeam<br/>Sonnet, parallel<br/>in Git-Worktrees"]
+    C --> D["Prüfung<br/>Tests · Prüfcockpit"]
+    D --> E{"Abnahme<br/>durch mich"}
+    E -->|passt| F["Merge · Deploy<br/>Railway"]
+    E -->|nachbessern| C
+    F --> G["Doku<br/>für die nächste Sitzung"]
+```
+
+Damit nichts nach KI aussieht, prüfe ich jede Seite gegen eigene Design-Regeln. Damit nichts verloren geht, wird alles dokumentiert: Ein Drittel meiner Commits sind Doku-Commits.
 
 <br>
 
 ---
+
 
 # Reichweite
 
@@ -125,7 +172,7 @@ flowchart LR
 ```
 
 `17.744` Zeilen Python · `13.174` Zeilen Kotlin · `214` Tests · Docker · 10 Doku-Dateien
-Privates Repository — der Kunde hat es noch nicht abgenommen.
+Übergabefertig: Der Wirt bekommt fertige APK, Server und Übergabetext.
 
 ---
 
@@ -251,7 +298,7 @@ Meine Ausbildung zum Fachinformatiker für Anwendungsentwicklung beginnt 2027. E
 | Qualitätssicherung und Testen | `2.324` Testfunktionen — schwerpunktmäßig in zwei Projekten |
 | Sicherheit | TOTP-Zweifaktor, JWT mit Rotation, Rate-Limiting, RLS |
 | Benutzeroberflächen | Native Android-App, sieben produktive Weboberflächen |
-| Kundenkommunikation | Acht zahlende Kunden, Übergaben, laufende Betreuung |
+| Kundenkommunikation | Eigenes Gewerbe, Verträge, Übergaben und laufende Betreuung von sieben Live-Seiten |
 | Netzwerke und Betriebssysteme | Linux, Raspberry-Pi-Cluster, Deployment und Domainverwaltung |
 
 Was noch fehlt: strukturierte CI/CD über alle Projekte hinweg, Datenbank-Optimierung und Arbeit im Team mit Branches und Code-Reviews. Daran arbeite ich gezielt.
@@ -260,17 +307,18 @@ Was noch fehlt: strukturierte CI/CD über alle Projekte hinweg, Datenbank-Optimi
 
 # Woran ich gerade arbeite
 
-- **LieferungDirekt** zur Abnahme bringen
+- **Sichtbarkeit meiner Kundenseiten**: Suchzahlen messen, Orts- und Leistungsseiten ausbauen, Backlinks
+- **Werbevideos** für Betriebe als neue Leistung
 - **Testabdeckung und CI** auf die älteren Projekte ausweiten — der größte Abstand zu sauberer Arbeit
 - **`ruff` und Type-Hints** als Standard in jedem neuen Projekt
-- Perspektivisch die Selbstständigkeit mit Webentwicklung und SEO
+- Die **Webagentur Scherzinger** weiter aufbauen, neben der Ausbildung ab 2027
 
 <br>
 
 # Kontakt
 
 [![TikTok](https://img.shields.io/badge/TikTok-python__tutorials__de-0D1117?style=for-the-badge&logo=tiktok&logoColor=E8A33D&labelColor=161B22)](https://www.tiktok.com/@python_tutorials_de)
-[![PyStore](https://img.shields.io/badge/Webseiten-pystore.de-0D1117?style=for-the-badge&logo=django&logoColor=E8A33D&labelColor=161B22)](https://www.pystore.de)
+[![Webagentur Scherzinger](https://img.shields.io/badge/Webagentur-webagentur--scherzinger.com-0D1117?style=for-the-badge&logo=django&logoColor=E8A33D&labelColor=161B22)](https://webagentur-scherzinger.com)
 [![GitHub](https://img.shields.io/badge/GitHub-BastianScherzinger-0D1117?style=for-the-badge&logo=github&logoColor=E8A33D&labelColor=161B22)](https://github.com/BastianScherzinger)
 
-<sub>Alle Kennzahlen auf dieser Seite sind gemessen: Codezeilen über <code>find</code> und <code>wc</code> ohne Fremdbibliotheken, Testfunktionen über <code>def test_</code>, Commits aus der Git-Historie, Seiten per HTTP-Abruf geprüft. Die Reichweiten-Zahlen stammen aus der TikTok-Statistik des Kanals, Stand August 2026.</sub>
+<sub>Alle Kennzahlen auf dieser Seite sind gemessen: Codezeilen über <code>find</code> und <code>wc</code> ohne Fremdbibliotheken, Testfunktionen über <code>def test_</code>, Commits aus der Git-Historie, Seiten per HTTP-Abruf geprüft. Die Reichweiten-Zahlen stammen aus der TikTok-Statistik des Kanals, Stand August 2026. Commits, Repos, Tests und Agenten-Zahlen: gemessen am 15.10.2026 über 38 eigene Repos ohne Kopien und Arbeitsbäume.</sub>

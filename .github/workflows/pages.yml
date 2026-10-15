@@ -1,4 +1,4 @@
-name: Zeitleiste veröffentlichen
+name: Portfolio und Zeitleiste veröffentlichen
 
 on:
   push:
@@ -29,8 +29,8 @@ jobs:
           cp -r zeitleiste _site/
           cp -r assets _site/
           touch _site/.nojekyll
-          # Einstiegsseite verweist direkt auf die Zeitleiste
-          printf '<!doctype html><meta charset="utf-8"><title>Bastian Scherzinger</title><meta http-equiv="refresh" content="0; url=./zeitleiste/">\n' > _site/index.html
+          # Einstiegsseite: Portfolio mit Referenzen
+          cp portfolio/index.html _site/index.html
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

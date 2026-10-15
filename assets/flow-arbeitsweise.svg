@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="318" viewBox="0 0 1200 318" role="img" aria-label="So arbeite ich mit KI-Agenten: Entscheidungen und Abnahme bleiben bei mir, die Agenten bauen. 10.09.–15.10.2026: 984 Agenten, über 160.000 Werkzeugaufrufe.">
+  <title>So arbeite ich mit KI-Agenten</title>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A6524"/></marker></defs>
+  <style>.s{font-family:ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif} .m{font-family:ui-monospace, "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace} @media (prefers-reduced-motion: reduce){.dot{display:none}}</style>
+  <rect x="1" y="1" width="1198" height="316" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  <text class="m" x="40" y="34" font-size="12" fill="#6E7681" letter-spacing="1.4">SO ARBEITE ICH MIT KI-AGENTEN</text>
+<path id="e0" d="M186.7,101.0 C208.7,101.0 208.7,101.0 230.7,101.0" fill="none" stroke="#8A6524" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle r="3" fill="#E8A33D" class="dot"><animateMotion dur="2.6s" begin="0.00s" repeatCount="indefinite"><mpath href="#e0"/></animateMotion></circle>
+<path id="e1" d="M381.3,101.0 C403.3,101.0 403.3,101.0 425.3,101.0" fill="none" stroke="#8A6524" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle r="3" fill="#E8A33D" class="dot"><animateMotion dur="3.1s" begin="0.37s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion></circle>
+<path id="e2" d="M576.0,101.0 C598.0,101.0 598.0,101.0 620.0,101.0" fill="none" stroke="#8A6524" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle r="3" fill="#E8A33D" class="dot"><animateMotion dur="3.6s" begin="0.74s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle>
+<path id="e3" d="M770.7,101.0 C792.7,101.0 792.7,101.0 814.7,101.0" fill="none" stroke="#8A6524" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle r="3" fill="#E8A33D" class="dot"><animateMotion dur="2.6s" begin="1.11s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle>
+<path id="e4" d="M965.3,101.0 C987.3,101.0 987.3,101.0 1009.3,101.0" fill="none" stroke="#8A6524" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle r="3" fill="#E8A33D" class="dot"><animateMotion dur="3.1s" begin="1.48s" repeatCount="indefinite"><mpath href="#e4"/></animateMotion></circle>
+<text class="m" x="987.3" y="94.0" text-anchor="middle" font-size="11" fill="#8B949E" paint-order="stroke" stroke="#0D1117" stroke-width="4">passt</text>
+<path id="e5" d="M892.0,134.0 C892.0,194.0 502.7,194.0 502.7,138.0" fill="none" stroke="#8A6524" stroke-width="1.6" stroke-dasharray="5 5" marker-end="url(#ah)"/>
+<circle r="3" fill="#E8A33D" class="dot"><animateMotion dur="3.6s" begin="1.85s" repeatCount="indefinite"><mpath href="#e5"/></animateMotion></circle>
+<text class="m" x="697.3" y="182.0" text-anchor="middle" font-size="11" fill="#8B949E" paint-order="stroke" stroke="#0D1117" stroke-width="4">nachbessern</text>
+<path id="e6" d="M1086.7,134.0 L1086.7,168.0" fill="none" stroke="#8A6524" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle r="3" fill="#E8A33D" class="dot"><animateMotion dur="2.6s" begin="0.22s" repeatCount="indefinite"><mpath href="#e6"/></animateMotion></circle>
+<rect x="40.0" y="68" width="146.66666666666666" height="66" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.4"/>
+<text class="s" x="113.33333333333333" y="97.5" text-anchor="middle" font-size="14" font-weight="700" fill="#E6EDF3">Auftrag</text>
+<text class="m" x="113.33333333333333" y="114.5" text-anchor="middle" font-size="11" fill="#8B949E">per Sprache</text>
+<rect x="234.66666666666669" y="68" width="146.66666666666666" height="66" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.4"/>
+<text class="s" x="308.0" y="97.5" text-anchor="middle" font-size="14" font-weight="700" fill="#E6EDF3">Plan</text>
+<text class="m" x="308.0" y="114.5" text-anchor="middle" font-size="11" fill="#8B949E">Opus · Fable</text>
+<rect x="429.33333333333337" y="68" width="146.66666666666666" height="66" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.4"/>
+<text class="s" x="502.6666666666667" y="89.0" text-anchor="middle" font-size="14" font-weight="700" fill="#E6EDF3">Agententeam</text>
+<text class="m" x="502.6666666666667" y="106.0" text-anchor="middle" font-size="11" fill="#8B949E">Sonnet · parallel</text>
+<text class="m" x="502.6666666666667" y="123.0" text-anchor="middle" font-size="11" fill="#8B949E">in Git-Worktrees</text>
+<rect x="624.0" y="68" width="146.66666666666666" height="66" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.4"/>
+<text class="s" x="697.3333333333334" y="97.5" text-anchor="middle" font-size="14" font-weight="700" fill="#E6EDF3">Prüfung</text>
+<text class="m" x="697.3333333333334" y="114.5" text-anchor="middle" font-size="11" fill="#8B949E">Tests · Prüfcockpit</text>
+<rect x="818.6666666666667" y="68" width="146.66666666666666" height="66" rx="33" fill="#161B22" stroke="#E8A33D" stroke-width="1.6"/>
+<text class="s" x="892.0000000000001" y="97.5" text-anchor="middle" font-size="14" font-weight="700" fill="#E6EDF3">Abnahme</text>
+<text class="m" x="892.0000000000001" y="114.5" text-anchor="middle" font-size="11" fill="#8B949E">durch mich</text>
+<rect x="1013.3333333333335" y="68" width="146.66666666666666" height="66" rx="10" fill="#1F1A10" stroke="#E8A33D" stroke-width="1.4"/>
+<text class="s" x="1086.6666666666667" y="97.5" text-anchor="middle" font-size="14" font-weight="700" fill="#E6EDF3">Merge + Deploy</text>
+<text class="m" x="1086.6666666666667" y="114.5" text-anchor="middle" font-size="11" fill="#8B949E">Railway</text>
+<rect x="1013.3333333333335" y="172" width="146.66666666666666" height="66" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.4"/>
+<text class="s" x="1086.6666666666667" y="193.0" text-anchor="middle" font-size="14" font-weight="700" fill="#E6EDF3">Doku</text>
+<text class="m" x="1086.6666666666667" y="210.0" text-anchor="middle" font-size="11" fill="#8B949E">für die nächste</text>
+<text class="m" x="1086.6666666666667" y="227.0" text-anchor="middle" font-size="11" fill="#8B949E">Sitzung</text>
+<text class="s" x="40" y="298" font-size="12.5" fill="#6E7681">Entscheidungen und Abnahme bleiben bei mir, die Agenten bauen. 10.09.–15.10.2026: 984 Agenten, über 160.000 Werkzeugaufrufe.</text>
+</svg>

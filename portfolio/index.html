@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bastian Scherzinger · Webentwickler, Webagentur Scherzinger Lübeck</title>
+<meta name="description" content="Portfolio von Bastian Scherzinger, Inhaber der Webagentur Scherzinger in Lübeck: Webseiten mit Django für kleine Betriebe, die ich selbst baue und laufend betreue.">
+<link rel="canonical" href="https://bastianscherzinger.github.io/BastianScherzinger/">
+<meta property="og:title" content="Bastian Scherzinger · Webagentur Scherzinger">
+<meta property="og:description" content="Webseiten mit Django für kleine Betriebe, selbst gebaut und laufend betreut.">
+<meta property="og:url" content="https://bastianscherzinger.github.io/BastianScherzinger/">
+<meta property="og:type" content="profile">
+<meta property="og:image" content="https://bastianscherzinger.github.io/BastianScherzinger/assets/sites/webagentur.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"Person","@id":"https://bastianscherzinger.github.io/BastianScherzinger/#person","name":"Bastian Scherzinger","jobTitle":"Webentwickler","address":{"@type":"PostalAddress","addressLocality":"Lübeck","addressCountry":"DE"},
+  "worksFor":{"@id":"https://webagentur-scherzinger.com/#organization"},
+  "url":"https://bastianscherzinger.github.io/BastianScherzinger/",
+  "sameAs":["https://github.com/BastianScherzinger","https://www.tiktok.com/@python_tutorials_de","https://webagentur-scherzinger.com"],
+  "knowsAbout":["Django","Python","Webentwicklung","Suchmaschinenoptimierung","Local SEO","Generative Engine Optimization"]},
+ {"@type":"Organization","@id":"https://webagentur-scherzinger.com/#organization","name":"Webagentur Scherzinger","url":"https://webagentur-scherzinger.com","founder":{"@id":"https://bastianscherzinger.github.io/BastianScherzinger/#person"}}
+]}
+</script>
+<style>
+  :root{--bg:#0D1117;--surface:#161B22;--border:#262D36;--text:#E6EDF3;--muted:#9AA4AF;--dim:#6E7681;--accent:#E8A33D;color-scheme:dark}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.6 "IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1040px;margin:0 auto;padding:56px max(20px,env(safe-area-inset-left)) 80px;display:flex;flex-direction:column;gap:72px}
+  h1,h2,h3{font-family:Archivo,"Arial Narrow",sans-serif;margin:0;line-height:1.08;text-wrap:balance}
+  h1{font-size:clamp(2.4rem,7vw,4.6rem);font-weight:800;letter-spacing:-.03em}
+  h1 span{color:var(--accent)}
+  h2{font-size:clamp(1.6rem,3.6vw,2.3rem);font-weight:800;letter-spacing:-.02em}
+  h3{font-size:1.15rem;font-weight:700}
+  p{margin:0;max-width:66ch}
+  a{color:var(--accent);text-underline-offset:3px}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+  .eyebrow{font:500 .76rem/1 "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+  header{display:flex;flex-direction:column;gap:18px}
+  .lead{font-size:1.2rem;color:var(--muted)}
+  .lead b{color:var(--text);font-weight:600}
+  .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;min-height:46px;padding:0 20px;border-radius:999px;border:1px solid var(--border);color:var(--text);text-decoration:none;font-weight:600}
+  .btn.main{background:var(--accent);border-color:var(--accent);color:#1A1203}
+  section{display:flex;flex-direction:column;gap:22px}
+  .sites{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:22px}
+  .site{background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+  .site img{display:block;width:100%;height:auto;aspect-ratio:8/5;object-fit:cover;border-bottom:1px solid var(--border)}
+  .site div{padding:18px 20px 20px;display:flex;flex-direction:column;gap:8px}
+  .site .meta{font:500 .78rem "IBM Plex Mono",monospace;color:var(--dim)}
+  .site p{color:var(--muted);font-size:.95rem}
+  .site a.go{font-weight:600;text-decoration:none}
+  .site a.go:hover{text-decoration:underline}
+  .wide img{display:block;width:100%;height:auto;border-radius:14px}
+  .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:1px;background:var(--border);border:1px solid var(--border);border-radius:14px;overflow:hidden}
+  .facts div{background:var(--surface);padding:20px;display:flex;flex-direction:column;gap:4px}
+  .facts b{font:800 2rem/1 Archivo,sans-serif;color:var(--accent)}
+  .facts span{color:var(--muted);font-size:.9rem}
+  footer{border-top:1px solid var(--border);padding-top:20px;color:var(--dim);font-size:.9rem;display:flex;gap:18px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header>
+  <span class="eyebrow">Lübeck · seit 2026 selbstständig</span>
+  <h1>Bastian Scherzinger<br><span>Webseiten, die arbeiten.</span></h1>
+  <p class="lead">Ich führe die <a href="https://webagentur-scherzinger.com"><b>Webagentur Scherzinger</b></a> und baue Webseiten für kleine Betriebe mit Django: programmiert statt Baukasten, online in zwei bis vier Wochen. Nach dem Start bleibe ich dran. Ich messe die Suchzahlen, baue neue Seiten und kümmere mich um Technik, Mails und Sichtbarkeit.</p>
+  <div class="cta">
+    <a class="btn main" href="https://webagentur-scherzinger.com">Website anfragen</a>
+    <a class="btn" href="./zeitleiste/">Mein Weg in 29 Stationen</a>
+    <a class="btn" href="https://github.com/BastianScherzinger">GitHub-Profil</a>
+  </div>
+</header>
+
+<section>
+  <div class="facts">
+    <div><b>6</b><span>Webseiten, die ich laufend betreue</span></div>
+    <div><b>6.273</b><span>Commits seit Mai 2026</span></div>
+    <div><b>11.871</b><span>automatische Tests</span></div>
+    <div><b>142</b><span>aktive Tage im Jahr 2026</span></div>
+  </div>
+</section>
+
+<section>
+  <span class="eyebrow">Referenzen</span>
+  <h2>Webseiten, die ich gebaut habe und betreue</h2>
+  <div class="sites">
+    <article class="site"><img src="./assets/sites/ruempelwerk.jpg" alt="Startseite Rümpelwerk Mitteldeutschland" width="800" height="500" loading="lazy"><div>
+      <span class="meta">Entrümpelung · Halle und Leipzig · seit Mai 2026</span>
+      <h3><a class="go" href="https://www.ruempelwerk-mitteldeutschland.de">Rümpelwerk Mitteldeutschland</a></h3>
+      <p>Entrümpelung und Haushaltsauflösung in Halle und Leipzig. Anfrage in zwei Minuten, Festpreis per WhatsApp-Video, Besichtigung online buchbar. Über die Seite kommen laufend echte Aufträge herein.</p></div></article>
+    <article class="site"><img src="./assets/sites/hg-fluegel.jpg" alt="Startseite HG Flügel Haus- und Gebäudeservice" width="800" height="500" loading="lazy"><div>
+      <span class="meta">Gebäudeservice · Odenwald · seit Mai 2026</span>
+      <h3><a class="go" href="https://www.hg-fluegel.de">HG Flügel Haus- und Gebäudeservice</a></h3>
+      <p>Hausmeister, Garten und Winterdienst im Odenwald. Richtangebot in zwei Minuten und eine Galerie mit 120 Vorher-nachher-Fotos.</p></div></article>
+    <article class="site"><img src="./assets/sites/1a-entruempelung.jpg" alt="Startseite 1A Entrümpelung Leipzig" width="800" height="500" loading="lazy"><div>
+      <span class="meta">Entrümpelung · Leipzig · seit September 2026</span>
+      <h3><a class="go" href="https://www.1a-entruemplung.com">1A Entrümpelung Leipzig</a></h3>
+      <p>Entrümpelung in Leipzig mit Preis in 60 Sekunden und kostenloser Besichtigung. Bewusst ohne Baukasten-Look gebaut.</p></div></article>
+    <article class="site"><img src="./assets/sites/rtc-service.jpg" alt="Startseite RTC-Service" width="800" height="500" loading="lazy"><div>
+      <span class="meta">Klima- und Haustechnik · Waghäusel · seit Juni 2026</span>
+      <h3><a class="go" href="https://www.rtc-service.com">RTC-Service Klimaanlage und Haustechnik</a></h3>
+      <p>Acht Gewerke aus einer Hand. Kostenloser Preisrechner direkt im Kopfbereich, Bewertungen und schnelle Wege über WhatsApp.</p></div></article>
+    <article class="site"><img src="./assets/sites/wvm-it.jpg" alt="Startseite WVM-IT" width="800" height="500" loading="lazy"><div>
+      <span class="meta">IT-Betreuung · Lenzing, Österreich · seit Juli 2026</span>
+      <h3><a class="go" href="https://www.wvm-it.tech">WVM-IT IT-Betreuung für Betriebe</a></h3>
+      <p>Laufende IT-Betreuung für kleine Betriebe, dreisprachig auf Deutsch, Englisch und Rumänisch.</p></div></article>
+    <article class="site"><img src="./assets/sites/luviq.jpg" alt="Startseite Luviq" width="800" height="500" loading="lazy"><div>
+      <span class="meta">Mode · Alsfeld · seit April 2026</span>
+      <h3><a class="go" href="https://www.luviq-alsfeld.com">Luviq, handbemalte Mode aus Alsfeld</a></h3>
+      <p>Handbemalte Second-Hand-Mode als editoriales Archiv. Mit diesem Projekt habe ich Django gelernt.</p></div></article>
+  </div>
+</section>
+
+<section class="wide">
+  <span class="eyebrow">Aktivität</span>
+  <h2>Jeden Tag an Kundenseiten</h2>
+  <p class="lead">Die meisten Kundenprojekte liegen in privaten Repos. Diese Grafik zählt alle Commits aus meinen eigenen Repos im Jahr 2026.</p>
+  <img src="./assets/aktiv.svg" alt="Commits pro Tag im Jahr 2026 über alle eigenen Repos" width="1200" height="401">
+</section>
+
+<section class="wide">
+  <span class="eyebrow">Arbeitsweise</span>
+  <h2>Mit KI-Agenten, aber mit eigener Abnahme</h2>
+  <p class="lead">Ich plane, Agententeams bauen parallel, und am Ende prüfe ich jede Änderung selbst. So entsteht in Wochen, wofür andere Monate brauchen, ohne dass es nach KI aussieht.</p>
+  <img src="./assets/flow-arbeitsweise.svg" alt="Arbeitsweise: Auftrag, Plan, Agententeam, Prüfung, Abnahme, Deploy, Doku" width="1200" height="318">
+</section>
+
+<section>
+  <span class="eyebrow">Leistungen</span>
+  <h2>Was ich für Betriebe mache</h2>
+  <p class="lead">Webseiten mit Django, Local SEO mit Orts- und Leistungsseiten, strukturierte Daten und <code>llms.txt</code> für KI-Suchmaschinen, Preisrechner und Anfrageformulare, Werbevideos und die laufende Betreuung danach. Alles Weitere steht auf <a href="https://webagentur-scherzinger.com">webagentur-scherzinger.com</a>.</p>
+</section>
+
+<footer>
+  <span>© 2026 Bastian Scherzinger, Lübeck</span>
+  <a href="https://webagentur-scherzinger.com">Webagentur Scherzinger</a>
+  <a href="https://github.com/BastianScherzinger">GitHub</a>
+  <a href="https://www.tiktok.com/@python_tutorials_de">TikTok @python_tutorials_de</a>
+  <a href="./zeitleiste/">Zeitleiste</a>
+</footer>
+</main>
+</body>
+</html>

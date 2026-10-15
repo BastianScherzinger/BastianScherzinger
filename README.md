@@ -6,9 +6,15 @@ Ich führe die **[Webagentur Scherzinger](https://webagentur-scherzinger.com)** 
 
 Mit 11 habe ich bei Scratch angefangen. Im Juli 2025, direkt nach dem Realschulabschluss, habe ich bewusst wieder bei `hello world` begonnen. Am 1. September 2026 habe ich daraus ein Gewerbe gemacht.
 
-**Aktuell:** Webagentur Scherzinger mit sieben betreuten Live-Seiten · **Ab 2027:** Ausbildung zum Fachinformatiker für Anwendungsentwicklung
+**Aktuell:** Webagentur Scherzinger mit sechs betreuten Kundenseiten · **Ab 2027:** Ausbildung zum Fachinformatiker für Anwendungsentwicklung
 
-<img src="assets/zahlen.svg?v=1" alt="Kennzahlen 2026: 6.273 Commits seit Mai, 38 Repos, 11.871 Testfunktionen, 7 betreute Live-Seiten" width="100%">
+**→ [Portfolio mit allen Referenzen](https://bastianscherzinger.github.io/BastianScherzinger/)** · **[Webagentur Scherzinger](https://webagentur-scherzinger.com)** · **[Mein Weg in 29 Stationen](https://bastianscherzinger.github.io/BastianScherzinger/zeitleiste/)**
+
+<img src="assets/zahlen.svg?v=2" alt="Kennzahlen 2026: 6.273 Commits seit Mai, 38 Repos, 11.871 Testfunktionen, 6 betreute Kundenseiten" width="100%">
+
+<img src="assets/aktiv.svg?v=1" alt="Aktivität 2026: Commits pro Tag über alle eigenen Repos, auch private" width="100%">
+
+<sub>Das grüne GitHub-Diagramm oben zeigt nur einen Teil: Die meisten Kundenprojekte liegen in privaten Repos. Diese Grafik zählt alle Commits aus meinen eigenen Repos.</sub>
 
 <br>
 
@@ -25,8 +31,7 @@ Alle Seiten unten habe ich selbst gebaut und betreue sie bis heute: Konzept, Tex
 | [RTC-Service](https://www.rtc-service.com) | Klima- und Haustechnik, Waghäusel | Juni 2026 | Bewertungsseite, Preisrechner, Sichtbarkeit |
 | [WVM-IT](https://www.wvm-it.tech) | IT-Betreuung, Österreich | Juli 2026 | dreisprachig DE, EN und RO, Google-Unternehmensprofil |
 | [1A Entrümpelung](https://www.1a-entruemplung.com) | Entrümpelung, Leipzig | Sep. 2026 | Neubau im September, Preisrechner, Ratgeber |
-| [Luviq](https://www.luviq-alsfeld.com) | handbemalte Mode | Apr. 2026 | Archiv, Rechtstexte, Instagram-Anbindung |
-| [Autohaus Rhein-Neckar](https://rhein-neckar-production.up.railway.app) | Luxusfahrzeuge | Juni 2026 | Showroom mit drehbaren 3D-Fahrzeugen |
+| [Luviq](https://www.luviq-alsfeld.com) | handbemalte Mode, Alsfeld | Apr. 2026 | Archiv, Rechtstexte, Instagram-Anbindung |
 
 ### Referenz: Rümpelwerk Mitteldeutschland
 
@@ -42,18 +47,7 @@ Mein am längsten und am intensivsten betreutes Projekt. Ich habe es im Mai 2026
 
 `990` Commits · `89.058` Zeilen Code · `1.530` Testfunktionen · `32.469` Zeilen Doku
 
-```mermaid
-flowchart LR
-    A["Besucher aus Google<br/>Halle · Leipzig"] --> B["Orts- und<br/>Leistungsseite"]
-    B --> C{"Wie anfragen?"}
-    C -->|2 Minuten| D["Formular"]
-    C -->|Video| E["WhatsApp"]
-    C -->|Termin| F["Online-Besichtigung"]
-    D --> G["Telegram + Mail<br/>in Echtzeit"]
-    E --> G
-    F --> G
-    G --> H["Festpreis-Angebot"]
-```
+<img src="assets/flow-ruempelwerk.svg?v=1" alt="Ablauf bei Rümpelwerk: Suche, Orts- oder Leistungsseite, drei Anfragewege, Benachrichtigung in Echtzeit" width="100%">
 
 ### Weitere Kundenseiten
 
@@ -74,13 +68,18 @@ flowchart LR
 <td><b><a href="https://www.rtc-service.com">RTC-Service</a></b><br>Klimaanlagen und Haustechnik mit acht Gewerken. Kostenloser <b>Preisrechner direkt im Kopfbereich</b>, Bewertungsseite und direkte Wege über WhatsApp und Telefon. <code>900</code> Commits.</td>
 <td><b><a href="https://www.wvm-it.tech">WVM-IT</a></b><br>IT-Betreuung für Betriebe in Österreich. Dreisprachig DE/EN/RO über ein eigenes i18n-Paket ohne <code>gettext</code>, Rückruf-Formular und Google-Unternehmensprofil.</td>
 </tr>
+</table>
+
+### Eigenes und Lernprojekte
+
+<table>
 <tr>
-<td><a href="https://rhein-neckar-production.up.railway.app"><img src="assets/sites/rhein-neckar.jpg?v=2" alt="Automobilzentrum Rhein-Neckar" width="100%"></a></td>
-<td><a href="https://www.luviq-alsfeld.com"><img src="assets/sites/luviq.jpg?v=2" alt="Luviq" width="100%"></a></td>
+<td width="50%"><a href="https://www.luviq-alsfeld.com"><img src="assets/sites/luviq.jpg?v=2" alt="Luviq" width="100%"></a></td>
+<td width="50%"><a href="https://rhein-neckar-production.up.railway.app"><img src="assets/sites/rhein-neckar.jpg?v=2" alt="Lernprojekt Autohaus" width="100%"></a></td>
 </tr>
 <tr>
-<td><b><a href="https://rhein-neckar-production.up.railway.app">Automobilzentrum Rhein-Neckar</a></b><br>Mein technisch aufwändigstes Frontend: ein <b>Kinovideo, das der Scroll-Position folgt</b>, und ein Showroom mit <b>Fahrzeugen, die man mit der Maus drehen kann</b>.</td>
-<td><b><a href="https://www.luviq-alsfeld.com">Luviq</a></b><br>Handbemalte Second-Hand-Mode aus Alsfeld als editoriales Archiv. Mein erstes Projekt für eine andere Person.</td>
+<td><b><a href="https://www.luviq-alsfeld.com">Luviq</a></b><br>Handbemalte Second-Hand-Mode aus Alsfeld als editoriales Archiv. Mit diesem Shop habe ich Django gelernt: Models, Views, Templates, PayPal und Konten.</td>
+<td><b><a href="https://rhein-neckar-production.up.railway.app">Lernprojekt Autohaus</a></b><br>Kein Kundenauftrag, sondern zum Lernen gebaut: ein <b>Kinovideo, das der Scroll-Position folgt</b>, und <b>Fahrzeuge, die man mit der Maus drehen kann</b>. Daraus sind meine Skills für Scroll-Videos und 360°-Objekte entstanden.</td>
 </tr>
 </table>
 
@@ -96,16 +95,7 @@ flowchart LR
 
 Ich arbeite mit Claude Code und lasse ganze Agententeams für mich arbeiten. Die Entscheidungen und die Abnahme bleiben bei mir. Allein zwischen dem 10. September und dem 15. Oktober 2026 waren das 984 gestartete Agenten und über 160.000 Werkzeugaufrufe. 58 % meiner Commits seit Mai tragen Claude als Co-Autor.
 
-```mermaid
-flowchart LR
-    A["Auftrag<br/>per Sprache"] --> B["Plan<br/>Opus / Fable"]
-    B --> C["Agententeam<br/>Sonnet, parallel<br/>in Git-Worktrees"]
-    C --> D["Prüfung<br/>Tests · Prüfcockpit"]
-    D --> E{"Abnahme<br/>durch mich"}
-    E -->|passt| F["Merge · Deploy<br/>Railway"]
-    E -->|nachbessern| C
-    F --> G["Doku<br/>für die nächste Sitzung"]
-```
+<img src="assets/flow-arbeitsweise.svg?v=1" alt="Arbeitsweise mit KI-Agenten: Auftrag, Plan, Agententeam, Prüfung, Abnahme, Deploy, Doku" width="100%">
 
 Damit nichts nach KI aussieht, prüfe ich jede Seite gegen eigene Design-Regeln. Damit nichts verloren geht, wird alles dokumentiert: Ein Drittel meiner Commits sind Doku-Commits.
 
@@ -130,7 +120,7 @@ Am besten liefen zwei Videos über meine **Scraping-Dashboards** mit **126.000**
 
 # Der Weg hierher
 
-<img src="assets/journey.svg?v=2" alt="Entwicklungsweg von 2016 bis 2026" width="100%">
+<img src="assets/journey.svg?v=3" alt="Entwicklungsweg von 2016 bis 2026" width="100%">
 
 **→ [Als scroll-gesteuerte Seite ansehen](https://bastianscherzinger.github.io/BastianScherzinger/zeitleiste/)** — dort wächst die Zeitleiste mit, während man scrollt.
 
@@ -162,14 +152,7 @@ FastAPI-Backend mit PostgreSQL und Redis, dazu eine native Android-App in Kotlin
 
 Der Teil, auf den ich am meisten Wert gelegt habe, steht nicht im Code: Der Wirt pflegt Speisekarte, Fotos, Stammdaten und Rechtstexte selbst in der App. Das System gehört nach der Übergabe ihm, nicht mir.
 
-```mermaid
-flowchart LR
-    A["Android-App<br/>Kotlin · Compose"] -->|REST + JWT| B["FastAPI<br/>Service-Schicht"]
-    B --> C[("PostgreSQL")]
-    B --> D[("Redis<br/>Rate-Limit · Cache")]
-    B -->|Long-Polling| E["Küchen-Alarm"]
-    F["Wirt<br/>pflegt Inhalte selbst"] --> B
-```
+<img src="assets/flow-lieferungdirekt.svg?v=1" alt="Architektur LieferungDirekt: Android-App, FastAPI, PostgreSQL, Redis, Küchen-Alarm" width="100%">
 
 `17.744` Zeilen Python · `13.174` Zeilen Kotlin · `214` Tests · Docker · 10 Doku-Dateien
 Übergabefertig: Der Wirt bekommt fertige APK, Server und Übergabetext.
@@ -180,14 +163,7 @@ flowchart LR
 
 Scrapt Mietwohnungsangebote, sortiert sie nach Bundesland und spielt sie über einen Discord-Bot aus. Technisch mein saubersten gebautes Projekt: das einzige mit durchgehender Testabdeckung, Docker und GitHub Actions.
 
-```mermaid
-flowchart LR
-    A["Kleinanzeigen<br/>urllib · BeautifulSoup"] --> B["Scraper-Schicht<br/>Normalisierung · Dedup"]
-    B --> C[("Datenhaltung")]
-    C --> D["Dashboard<br/>Flask · Live-Fortschritt"]
-    C --> E["Discord-Bot<br/>Ausspielung je Bundesland"]
-    D -->|Suchen anlegen| B
-```
+<img src="assets/flow-livingen.svg?v=1" alt="Ablauf livingen: Quellen, Scraper, Datenhaltung, Dashboard, Discord-Bot" width="100%">
 
 `47.785` Zeilen Python · `1.545` Testfunktionen in `137` Dateien · Docker · CI
 
@@ -199,19 +175,7 @@ flowchart LR
 
 Deckt den Weg von der Lead-Recherche bis zur fertig deployten Kundenwebseite ab. Entstanden aus einem praktischen Problem: Der zeitaufwändigste Teil meiner Arbeit war nie das Programmieren, sondern Betriebe finden, Kontakte recherchieren, Inhalte zusammentragen, aufsetzen, deployen.
 
-```mermaid
-flowchart TB
-    A["Quellen<br/>Verzeichnisse · Maps"] --> B["Scraper<br/>Playwright · cloudscraper"]
-    B --> C["Anreicherung<br/>Kontakt · bestehende Webseite?"]
-    C --> DB[("Lead-Datenhaltung")]
-    DB --> E["Bewertung<br/>Lohnt der Kontakt?"]
-    E --> M["Ansprache<br/>Angebots-Mail"]
-    E --> W["Website-Bau<br/>Vorlage + Inhalte + Design"]
-    W --> G["GitHub-Repo anlegen"]
-    G --> R["Railway-Deployment<br/>+ Domain"]
-    UI["Flask-Dashboard"] --- DB
-    UI --- W
-```
+<img src="assets/flow-jarvis.svg?v=1" alt="Ablauf JARVIS: Quellen, Scraper, Anreicherung, Bewertung, Angebots-Mail oder Website-Bau mit Deployment" width="100%">
 
 Ehrlich eingeordnet: Die Idee trägt weiter als die Umsetzung. Bei `44.285` Zeilen stehen nur `258` Testfunktionen in vier Dateien, es gibt kein Docker-Setup und keine CI. Genau das ist die Baustelle, an der ich gerade arbeite.
 
@@ -225,14 +189,7 @@ Ehrlich eingeordnet: Die Idee trägt weiter als die Umsetzung. Bei `44.285` Zeil
 
 Auftragsarbeit: aus einem Briefing entsteht ein Drehbuch, daraus werden Videoszenen erzeugt und anschließend in alle benötigten Ausgabeformate geschnitten. Ein Durchlauf, der vorher aus vielen Einzelwerkzeugen bestand.
 
-```mermaid
-flowchart LR
-    A["Briefing<br/>Ziel · Zielgruppe · Ton"] --> B["Drehbuch<br/>Szene für Szene"]
-    B --> C["Szenen-Erzeugung<br/>Video je Einstellung"]
-    C --> Q["Warteschlange<br/>lange Renderjobs"]
-    Q --> D["Montage<br/>ffmpeg · Schnitt · Ton"]
-    D --> E["Ausgabeformate<br/>9:16 · 1:1 · 16:9"]
-```
+<img src="assets/flow-mediapipe.svg?v=1" alt="Ablauf MEDIAPIPE WVM: Briefing, Drehbuch, Szenen, Warteschlange, Montage, Ausgabeformate" width="100%">
 
 `8.147` Zeilen Python · `181` Tests · Flask · ffmpeg · ausführlichste Dokumentation aller meiner Projekte
 
@@ -244,16 +201,7 @@ flowchart LR
 
 Der Django-Shop hinter [luviq-alsfeld.com](https://www.luviq-alsfeld.com). Die Views habe ich nachträglich von einer einzelnen Datei in ein Package nach Zuständigkeiten aufgeteilt — ab etwa tausend Zeilen war jede Änderung eine Sucherei geworden. Das ist die Lektion, die ich aus diesem Projekt mitgenommen habe.
 
-```mermaid
-flowchart LR
-    A["Besucher"] --> B["Katalog<br/>Produkte · Detailseiten"]
-    B --> C["Warenkorb<br/>Session"]
-    C --> D["Checkout<br/>PayPal"]
-    D --> E["Bestätigung<br/>Brevo-Mail"]
-    K["Konto<br/>Registrierung + Verifizierung"] --> C
-    B --- F[("Cloudinary<br/>Produktbilder")]
-    L["Rechtstexte · sitemap.xml<br/>robots.txt"] --- B
-```
+<img src="assets/flow-luviq.svg?v=1" alt="Ablauf Luviq-Shop: Katalog, Warenkorb, PayPal-Checkout, Bestätigungsmail" width="100%">
 
 `Django 5` · `PostgreSQL` · `PayPal` · `Cloudinary` · `Brevo` · `django-axes` · Docker
 
@@ -267,16 +215,7 @@ Ein Discord-Bot, der Vinted-Suchen überwacht und Treffer meldet. Die erste Fass
 
 Das war mein erstes echtes Architektur-Problem. Nicht „funktioniert es?", sondern „funktioniert es unter den Bedingungen, die tatsächlich gelten?".
 
-```mermaid
-flowchart LR
-    A["Suchen<br/>je Discord-Kanal"] --> B["Warteschlange<br/>asyncio · viele parallel"]
-    B --> C["Abruf<br/>requests statt Browser"]
-    P["Proxy-Rotation"] --> C
-    C --> D{"Schon gesehen?"}
-    D -->|nein| E["Discord-Benachrichtigung"]
-    D -->|ja| X["verwerfen"]
-    D <--> G[("MongoDB Atlas<br/>zustandslos")]
-```
+<img src="assets/flow-vintedbot.svg?v=1" alt="Ablauf VintedBot: Suchen, Warteschlange, Abruf über Proxys, Duplikatprüfung, Discord-Meldung" width="100%">
 
 `Python` · `asyncio` · `discord.py` · `MongoDB` · `Docker`
 
@@ -297,8 +236,8 @@ Meine Ausbildung zum Fachinformatiker für Anwendungsentwicklung beginnt 2027. E
 | Anwendungen mit Schnittstellen | Eigenes FastAPI-Backend, Anbindung mehrerer externer APIs |
 | Qualitätssicherung und Testen | `2.324` Testfunktionen — schwerpunktmäßig in zwei Projekten |
 | Sicherheit | TOTP-Zweifaktor, JWT mit Rotation, Rate-Limiting, RLS |
-| Benutzeroberflächen | Native Android-App, sieben produktive Weboberflächen |
-| Kundenkommunikation | Eigenes Gewerbe, Verträge, Übergaben und laufende Betreuung von sieben Live-Seiten |
+| Benutzeroberflächen | Native Android-App, sechs betreute Live-Seiten |
+| Kundenkommunikation | Eigenes Gewerbe, Verträge, Übergaben und laufende Betreuung von sechs Live-Seiten |
 | Netzwerke und Betriebssysteme | Linux, Raspberry-Pi-Cluster, Deployment und Domainverwaltung |
 
 Was noch fehlt: strukturierte CI/CD über alle Projekte hinweg, Datenbank-Optimierung und Arbeit im Team mit Branches und Code-Reviews. Daran arbeite ich gezielt.
@@ -319,6 +258,7 @@ Was noch fehlt: strukturierte CI/CD über alle Projekte hinweg, Datenbank-Optimi
 
 [![TikTok](https://img.shields.io/badge/TikTok-python__tutorials__de-0D1117?style=for-the-badge&logo=tiktok&logoColor=E8A33D&labelColor=161B22)](https://www.tiktok.com/@python_tutorials_de)
 [![Webagentur Scherzinger](https://img.shields.io/badge/Webagentur-webagentur--scherzinger.com-0D1117?style=for-the-badge&logo=django&logoColor=E8A33D&labelColor=161B22)](https://webagentur-scherzinger.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Referenzen-0D1117?style=for-the-badge&logo=githubpages&logoColor=E8A33D&labelColor=161B22)](https://bastianscherzinger.github.io/BastianScherzinger/)
 [![GitHub](https://img.shields.io/badge/GitHub-BastianScherzinger-0D1117?style=for-the-badge&logo=github&logoColor=E8A33D&labelColor=161B22)](https://github.com/BastianScherzinger)
 
 <sub>Alle Kennzahlen auf dieser Seite sind gemessen: Codezeilen über <code>find</code> und <code>wc</code> ohne Fremdbibliotheken, Testfunktionen über <code>def test_</code>, Commits aus der Git-Historie, Seiten per HTTP-Abruf geprüft. Die Reichweiten-Zahlen stammen aus der TikTok-Statistik des Kanals, Stand August 2026. Commits, Repos, Tests und Agenten-Zahlen: gemessen am 15.10.2026 über 38 eigene Repos ohne Kopien und Arbeitsbäume.</sub>

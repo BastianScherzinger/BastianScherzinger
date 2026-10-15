@@ -13,7 +13,7 @@ ACCENT, ACCENT_DIM, HAIR = "#E8A33D", "#8A6524", "#21262D"
 SANS = 'ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif'
 MONO = 'ui-monospace, "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace'
 
-KPIS = [("6.273", "Commits seit Mai"), ("38", "eigene Repos"), ("11.871", "Testfunktionen"), ("7", "Seiten live betreut")]
+KPIS = [("6.273", "Commits seit Mai"), ("38", "eigene Repos"), ("11.871", "Testfunktionen"), ("6", "Kundenseiten betreut")]
 MONTHS = [("Mai", 462), ("Jun", 362), ("Jul", 315), ("Aug", 213), ("Sep", 3882), ("Okt*", 1039)]
 
 W, H = 900, 330
@@ -38,7 +38,7 @@ for i, (m, v) in enumerate(MONTHS):
     parts.append(f'<text x="{x + bw * .32:.1f}" y="{cy + ch + 20:.1f}" text-anchor="middle" class="m" font-size="12" fill="{MUTED}">{m}</text>')
 parts.append(f'<text x="{cx}" y="{H - 18}" class="m" font-size="11" fill="{DIM}">Commits je Monat 2026 · Sep = Gründung + KI-Agententeams · *Okt bis 15.10.</text>')
 
-svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Kennzahlen 2026: 6.273 Commits seit Mai, 38 Repos, 11.871 Tests, 7 betreute Seiten; Commits je Monat mit Spitze im September">
+svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Kennzahlen 2026: 6.273 Commits seit Mai, 38 Repos, 11.871 Tests, 6 betreute Kundenseiten; Commits je Monat mit Spitze im September">
   <title>Kennzahlen 2026</title>
   <style>.s{{font-family:{SANS}}} .m{{font-family:{MONO}}} @media (prefers-reduced-motion: reduce){{animate{{display:none}}}}</style>
   <rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14" fill="{BG}" stroke="{BORDER}" stroke-width="1.5"/>
